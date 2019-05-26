@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submenu1_a">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@color/Background">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorAccent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/burger1"
+                android:contentDescription="@string/app_name"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+
+
+                />
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/paragraph_1"
+            android:textSize="18dp" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Deal Review"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/comments"
+        android:layout_width="297dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="comments"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_back"
+        android:text="Order"
+        android:textColor="@color/Background" />
+
+
+</RelativeLayout>

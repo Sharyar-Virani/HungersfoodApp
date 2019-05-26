@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content"
+    tools:context=".Menu1">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/m1-item_image"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger1"/>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/m1-item_name1"
+
+                android:text="MessyMeat Burger"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/m1item_place"
+                android:text="Burger'O Clock"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="btn_m1p1"
+            android:background="@drawable/button_rounded"
+            android:text="Deal"
+            android:textColor="@color/Background"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="10dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        android:paddingTop="150dp">
+
+
+        <ImageView
+            android:id="@+id/m1-item_image2"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger1"/>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/m1-item_name2"
+
+                android:text="DoublePatty Burger"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/m1-itemp_lace2"
+                android:text="Burger Lab"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/m1-p2"
+            android:background="@drawable/button_rounded"
+            android:text="Deal"
+            android:textColor="@color/Background"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="10dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="290dp">
+
+
+        <ImageView
+            android:id="@+id/m1-item_image3"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger1"/>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/m1-item_name3"
+
+                android:text="Zinger Burger"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/m1-itemp_place3"
+                android:text="KFC"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/m1-p3"
+            android:background="@drawable/button_rounded"
+            android:text="Deal"
+            android:textColor="@color/Background"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="10dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="430dp">
+
+
+        <ImageView
+            android:id="@+id/m1-item_image4"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger1"/>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/m1-item_name4"
+
+                android:text="MC Burger"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/m1-itemp_lace4"
+                android:text="McDonalds"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/m1-p4"
+            android:background="@drawable/button_rounded"
+            android:text="Deal"
+            android:textColor="@color/Background"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="10dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>
